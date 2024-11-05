@@ -1,0 +1,113 @@
+.my-logo
+{
+    
+    height: 100px;
+}
+.s-icon{
+    list-style: none;
+    padding-top:10px ;
+}
+
+.s-icon li{
+     display:inline-block;
+    //background-color:black ;
+    padding : 10px 15px;
+    border-radius: 50%; 
+    margin:0px 5px;
+    //color:white;
+
+
+}
+
+.manisha-ka-slider{
+
+    height: 560px;
+    
+}
+.teacher-pic{
+    height: 300px;
+}
+.faq-pic1
+{
+    height:300px;
+
+}
+.gallery-pic{
+    height: 250px ;
+}
+.breadcrumb-outer
+{
+height:250px;
+background-image:url("../image/library.jpg ");
+background-repeat: no-repeat;
+background-size:100% 180%;
+
+}
+.breadcrumb-inner
+{
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+}
+.my-div
+{
+display: flex;
+justify-content:space-between;
+padding-left:50px;
+padding-right:50px;
+height:100%;
+align-items:center;
+}
+.my-class
+{
+    resize:none;
+}
+.content-left
+{
+    background-image:url(../image/1s.jpg);
+    color:#ffff;
+}
+.content-left-inner
+{
+    background-color:rgba(0,0,0,0.5);
+}
+.image
+{
+ background-image:url(image/clg3.jpg);
+}
+
+
+
+
+/* <=========> card css <=======> */
+.card-outer{
+    min-height: 450px;
+}
+.wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+  }
+.wrapper:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    min-height:100%;
+    width: 100%;
+    color: white;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    cursor: pointer;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background-color: black;
+  }
